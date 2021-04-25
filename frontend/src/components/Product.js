@@ -1,15 +1,9 @@
-import React, { useEffect } from "react";
-import AOS from "aos";
-// import 'aos/dist/aos.css';
+import React from "react";
 import { Link } from "react-router-dom";
 import { Card } from "react-bootstrap";
 import Rating from "./Rating";
 
 const Product = ({ product }) => {
-  useEffect(() => {
-    AOS.init({ duration: 1000 });
-  }, []);
-
   return (
     <Card className="my-3 p-3 rounded" data-aos="fade-up">
       <Link to={`/product/${product._id}`}>

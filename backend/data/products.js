@@ -1,6 +1,5 @@
 const products = [
   {
-    _id: "1",
     name: "1967 Ford Mustang",
     image: "/images/67Mustang.png",
     description:
@@ -13,7 +12,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "2",
     name: "Blue Hot Wheels Racecar",
     image: "/images/HotWheels.png",
     description:
@@ -26,7 +24,6 @@ const products = [
     numReviews: 8,
   },
   {
-    _id: "3",
     name: "Lightning McQueen",
     image: "/images/LightningMcqueen.png",
     description:
@@ -39,7 +36,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "4",
     name: "McLaren 570S",
     image: "/images/Mclaren.png",
     description:
@@ -52,7 +48,6 @@ const products = [
     numReviews: 12,
   },
   {
-    _id: "5",
     name: "Old School Car",
     image: "/images/OldSchool.png",
     description:
@@ -65,7 +60,6 @@ const products = [
     numReviews: 10,
   },
   {
-    _id: "6",
     name: "Red Tesla Model S",
     image: "/images/TeslaModelS.png",
     description:

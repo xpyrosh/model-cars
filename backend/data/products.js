@@ -2,7 +2,7 @@ const products = [
   {
     _id: "1",
     name: "1967 Ford Mustang",
-    image: "/images/67 Mustang.png",
+    image: "/images/67Mustang.png",
     description:
       "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
     brand: "Ford",
@@ -67,7 +67,7 @@ const products = [
   {
     _id: "6",
     name: "Red Tesla Model S",
-    image: "/images/Tesla Model S.png",
+    image: "/images/TeslaModelS.png",
     description:
       "Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space",
     brand: "Tesla",

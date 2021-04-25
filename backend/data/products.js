@@ -1,7 +1,7 @@
 const products = [
   {
     _id: "1",
-    name: "1967 For Mustang",
+    name: "1967 Ford Mustang",
     image: "/images/67 Mustang.png",
     description:
       "Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working",
@@ -79,4 +79,8 @@ const products = [
   },
 ];
 
-export default products;
+// ES Modules
+// export default products;
+
+// Common JS
+module.exports = products;

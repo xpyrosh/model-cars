@@ -9,7 +9,7 @@ import ProductScreen from "./Screens/ProductScreen";
 
 const App = () => {
   useEffect(() => {
-    AOS.init({ duration: 2000 });
+    AOS.init({ duration: 800 });
   }, []);
   return (
     <Router>

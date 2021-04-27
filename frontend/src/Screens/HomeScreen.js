@@ -21,7 +21,17 @@ const HomeScreen = () => {
     <>
       <h2>Latest Products</h2>
       {loading ? (
-        <Loader />
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <Loader variant="danger" />
+          <Loader variant="light" />
+          <Loader variant="secondary" />
+        </div>
       ) : error ? (
         <Message variant="danger">{error}</Message>
       ) : (
